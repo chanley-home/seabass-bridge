@@ -1,8 +1,5 @@
 # seabass-bridge
 
-<p align="center">
-  <img src="docs/images/over-engineered-badge.svg" alt="Over Engineered - seabass-bridge" width="900">
-</p>
 
 A lightweight Raspberry Pi 4 appliance build intended to support a **Creality Falcon2 40W laser engraver** workflow.
 
