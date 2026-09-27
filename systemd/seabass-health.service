@@ -1,0 +1,13 @@
+[Unit]
+Description=seabass-bridge startup health check
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/seabass-bridge/scripts/diagnostics.sh
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
