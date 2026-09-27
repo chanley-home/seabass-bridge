@@ -1,6 +1,6 @@
 # seabass-bridge
 
-A lightweight Raspberry Pi 4 appliance build for a laser-side workstation area.
+A lightweight Raspberry Pi 4 appliance build intended to support a **Creality Falcon2 40W laser engraver** workflow.
 
 The project is designed around a disposable Raspberry Pi OS Lite installation:
 1. Flash Raspberry Pi OS Lite 64-bit with Raspberry Pi Imager.
@@ -11,8 +11,15 @@ The project is designed around a disposable Raspberry Pi OS Lite installation:
 
 The bootstrap configures the Pi as `seabass-bridge`, installs common diagnostics and camera utilities, enables SSH, creates a predictable directory layout, and installs the project health-check service.
 
+## Project purpose
+
+`seabass-bridge` is being built specifically to support a Creality Falcon2 40W laser engraver by providing a small, rebuildable Raspberry Pi appliance for network-connected USB access, local diagnostics, and webcam monitoring around the engraver workspace.
+
+LightBurn remains on the main workstation; the Raspberry Pi provides the network-side bridge and supporting services.
+
 ## Target platform
 
+- Creality Falcon2 40W laser engraver
 - Raspberry Pi 4 Model B
 - Raspberry Pi OS Lite 64-bit
 - Debian 13 (Trixie) current target
