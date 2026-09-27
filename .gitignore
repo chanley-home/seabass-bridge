@@ -1,0 +1,4 @@
+config/seabass.env
+*.tmp
+*.log
+.DS_Store
