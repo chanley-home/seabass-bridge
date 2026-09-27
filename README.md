@@ -15,7 +15,9 @@ The bootstrap configures the Pi as `seabass-bridge`, installs common diagnostics
 
 `seabass-bridge` is being built specifically to support a Creality Falcon2 40W laser engraver by providing a small, rebuildable Raspberry Pi appliance for network-connected USB access, local diagnostics, and webcam monitoring around the engraver workspace.
 
-LightBurn remains on the main workstation; the Raspberry Pi provides the network-side bridge and supporting services.
+The primary goal is to let **LightBurn on the main workstation connect to the Creality Falcon2 over the network through a USB-over-IP bridge**. This preserves the normal LightBurn workflow for device communication and positioning while the Raspberry Pi handles the remote USB transport and supporting services.
+
+LightBurn remains on the main workstation; the Raspberry Pi provides the network-side bridge, USB transport, diagnostics, and webcam support.
 
 ## Target platform
 
