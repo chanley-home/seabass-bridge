@@ -85,4 +85,12 @@ This repository does not automate energizing or starting attached machinery. Kee
 
 ## License
 
-Personal/home-lab project. Add a formal license if this repository is later published for general reuse.
+Original seabass-bridge project code is licensed under the **GNU General Public License v3.0 or later (GPL-3.0-or-later)**.
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but **WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.**
+
+See [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+Third-party software remains under its own license terms and is not relicensed by this project.
